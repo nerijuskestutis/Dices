@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Dice" />
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+</head>
+
+<body>
+    <header>
+        <h1>DICE GAME</h1>
+        <button class="btn-new">
+            <h4>Pradėti naują žaidimą</h4>
+        </button>
+    </header>
+
+    <main>
+        <section class="player player-0">
+            <div class="total">
+                <h3>Žaidėjas 1</h3>
+                <h2 class="totalScore-0">0</h2>
+            </div>
+            <div class="current">
+                <h2 class="score-0">0</h2>
+            </div>
+        </section>
+        <section class="game-container">
+            <div class="img-container">
+                <img src="./img/dice-0.png" alt="" class="dice">
+            </div>
+            <div class="button-container">
+                <button class="btn-roll">
+                    <h4>Ridenti</h4>
+                </button>
+                <button class="btn-hold">
+                    <h4>Sustoti</h4>
+                </button>
+            </div>
+        </section>
+        <section class="player player-1">
+            <div class="total">
+                <h3>Žaidėjas 2</h3>
+                <h2 class="totalScore-1">0</h2>
+            </div>
+            <div class="current">
+                <h2 class="score-1">0</h2>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
